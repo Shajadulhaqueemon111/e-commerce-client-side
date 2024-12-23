@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co.com/wg4Ks2J/07-0f6b7bac-beac-44f4-b7b5-49ef0f503b57.webp",
+    "name": "Premium Laptop Bag",
+    "price": "49.99",
+    "category": "Bags",
+    "description": "A stylish and durable laptop bag with multiple compartments for optimal organization and protection.",
+    "status": "Pending"
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co.com/HtXcJ35/canva-black-bold-logo-text-graphic-t-shirt-x-Bt-Zhb-Bc-Hc-Y.jpg",
+    "name": "Classic Cotton T-Shirt",
+    "price": "19.99",
+    "category": "T-Shirts",
+    "description": "A soft and comfortable cotton T-shirt, perfect for casual wear.",
+    "status": "Pending"
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co.com/HHTPXYp/AJ-DEN-TM23-02-S-0034-1.webp",
+    "name": "Slim Fit Jeans",
+    "price": "49.99",
+    "category": "Jeans",
+    "description": "Stylish slim-fit jeans made from premium denim with a stretchable design.",
+    "status": "Pending"
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co.com/zx9kyrm/ac4c41373bb5d0c8705c4ba59d150b41-jpg-960x960q80-jpg.webp",
+    "name": "Hooded Sweatshirt",
+    "price": "39.99",
+    "category": "Sweatshirts",
+    "description": "A warm and cozy hoodie with a kangaroo pocket for chilly days.",
+    "status": "Pending"
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co.com/QnJC3nL/istockphoto-1347568249-612x612.jpg",
+    "name": "Formal Blazer",
+    "price": "99.99",
+    "category": "Blazers",
+    "description": "A sleek formal blazer that adds a professional touch to any outfit.",
+    "status": "Pending"
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co.com/xGqtGGN/76d6ef04ac4575cf85eec9ee0f5a04dd-jpg-720x720q80.jpg",
+    "name": "Casual Sneakers",
+    "price": "59.99",
+    "category": "Footwear",
+    "description": "Lightweight and durable sneakers designed for everyday comfort.",
+    "status": "Pending"
+  },
+  {
+    "id": "7",
+    "image": "https://i.ibb.co.com/7jqbG7d/SWPZC-Dresses-For-Women-Fashion-Short-Sleeve-Knee-Length-Retro-A-Line-Flared-Swing-Formal-Prom-Party.webp",
+    "name": "Printed Summer Dress",
+    "price": "29.99",
+    "category": "Dresses",
+    "description": "A vibrant summer dress with floral prints, perfect for sunny days.",
+    "status": "Pending"
+  },
+  {
+    "id": "8",
+    "image": "https://i.ibb.co.com/hZcFwmN/blank-leather-jacket-mock-up-front-and-back-view-isolated-on-grey-asian-male-model-wear-plain-black.jpg",
+    "name": "Leather Jacket",
+    "price": "129.99",
+    "category": "Jackets",
+    "description": "A premium leather jacket with a classic design and a snug fit.",
+    "status": "Pending"
+  }
+]

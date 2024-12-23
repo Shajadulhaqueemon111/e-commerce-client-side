@@ -1,0 +1,51 @@
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+
+const PListingDetails = () => {
+  const { _id } = useParams();
+  const [product, setProduct] = useState("");
+
+  useEffect(() => {
+    fetch("https://server-side-five-azure.vercel.app/seller_uploadProduct")
+      .then((response) => response.json())
+      .then((data) => {
+        const foundProduct = data.find((item) => item._id === _id);
+
+        console.log(foundProduct);
+        setProduct(foundProduct);
+      })
+      .catch((error) => console.error("Error fetching product:", error));
+  }, [_id]);
+
+  if (!product) {
+    return (
+      <div>
+        <span className="loading loading-spinner text-success"></span>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <div className="card bg-base-100 w-96 shadow-sm">
+        <figure className="px-10 pt-10">
+          <img
+            src={product.image}
+            alt={product.name}
+            className="rounded-xl h-36"
+          />
+        </figure>
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">{product.name}</h2>
+          <h2 className="card-title">${product.price}</h2>
+          <p>{product.description}</p>
+          <div className="card-actions w-full">
+            <button className="btn w-full btn-secondary">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PListingDetails;
